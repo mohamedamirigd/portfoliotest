@@ -4,68 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project | Mohamed AMIRI</title>
-    <link rel="stylesheet" href="../style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- ✅ SAME CSS -->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-<div class="container" style="grid-template-columns: 1fr; max-width: 900px;">
+<!-- SAME BACKGROUND -->
+<div class="stars-container"><div class="stars"></div></div>
 
-    <!-- BACK BUTTON -->
-    <a href="../index.html" style="
-        margin-bottom: 20px;
-        display: inline-block;
-        text-decoration: none;
-        color: var(--primary);
-    ">
-        ← Back to Portfolio
-    </a>
-
-    <!-- HERO -->
-    <div class="section">
-        <h2 style="margin-top: 0;">Restaurant Branding</h2>
-        <p style="color: var(--text-dim);">
-            Complete brand identity for a modern restaurant.
-        </p>
-        <img src="../project1.jpg" style="width:100%; border-radius:15px; margin-top:20px;">
+<header>
+    <div class="profile-pic-container">
+        <img src="../images/amiri.png" alt="Mohamed AMIRI">
     </div>
 
-    <!-- PROJECT INFO -->
-    <div class="section">
-        <h3>Overview</h3>
-        <p><strong>Client:</strong> Local Restaurant</p>
-        <p><strong>Role:</strong> Brand Designer</p>
-        <p><strong>Tools:</strong> Illustrator, Photoshop</p>
+    <h1>MOHAMED AMIRI</h1>
+    <p>Branding • Web • Marketing Design that drives results</p>
+
+    <!-- ✅ BACK BUTTON -->
+    <div style="margin-top: 20px;">
+        <a href="../index.html" style="
+            padding: 12px 25px;
+            border-radius: 30px;
+            background: linear-gradient(to right, #00d2ff, #92fe9d);
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        ">
+            ← Back to Portfolio
+        </a>
     </div>
+</header>
 
-    <!-- PROBLEM -->
-    <div class="section">
-        <h3>Challenge</h3>
-        <p>
-            The client needed a modern and memorable identity to stand out in a competitive market.
-            Their previous branding lacked consistency and visual impact.
-        </p>
-    </div>
+<div class="container">
+    
+    <!-- SAME SIDEBAR -->
+    <aside>
 
-    <!-- SOLUTION -->
-    <div class="section">
-        <h3>Solution</h3>
-        <p>
-            I created a strong visual identity including logo, typography, and color system.
-            The design focuses on simplicity, elegance, and strong brand recognition.
-        </p>
-    </div>
+        <div class="section">
+            <h3><i class="fas fa-user-astronaut"></i> About Me</h3>
+            <p style="font-size: 0.9rem; color: var(--text-dim);">
+                I help businesses build strong and memorable visual identities through strategic design.
+                With over 6 years of experience, I combine creativity and marketing thinking to deliver designs that not only look good — but perform.
+            </p>
+        </div>
 
-    <!-- VISUALS -->
-    <div class="section">
-        <h3>Visual Output</h3>
+        <div class="section">
+            <h3><i class="fas fa-satellite"></i> Contact</h3>
+            <div class="contact-item"><i class="fas fa-map-marker-alt"></i> Tunisia, Ariana - 2094</div>
+            <div class="contact-item"><i class="fas fa-envelope"></i> mohamedamiri.gd@gmail.com</div>
+            <div class="contact-item"><i class="fas fa-phone"></i> +216 50 687 378</div>
+        </div>
 
-        <img src="../project1-1.jpg" style="width:100%; border-radius:15px; margin-bottom:20px;">
-        <img src="../project1-2.jpg" style="width:100%; border-radius:15px; margin-bottom:20px;">
-        <img src="../project1-3.jpg" style="width:100%; border-radius:15px;">
-    </div>
+    </aside>
 
-    <!-- RESULT -->
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- PROJECT HEADER -->
+        <div class="section">
+            <h3><i class="fas fa-rocket"></i> Restaurant Branding</h3>
+            <p style="color: var(--text-dim);">
+                Complete brand identity for a modern restaurant.
+            </p>
+
+            <img src="../images/project1.jpg" style="width:100%; border-radius:15px; margin-top:20px;">
+        </div>
+
+        <!-- INFO -->
+        <div class="section">
+            <h3>Overview</h3>
+            <p><strong>Client:</strong> Local Restaurant</p>
+            <p><strong>Role:</strong> Brand Designer</p>
+            <p><strong>Tools:</strong> Illustrator, Photoshop</p>
+        </div>
+
+        <!-- CHALLENGE -->
+        <div class="section">
+            <h3>Challenge</h3>
+            <p>
+                The client needed a modern and memorable identity to stand out in a competitive market.
+                Their previous branding lacked consistency and visual impact.
+            </p>
+        </div>
+
+        <!-- SOLUTION -->
+        <div class="section">
+            <h3>Solution</h3>
+            <p>
+                I created a strong visual identity including logo, typography, and color system.
+                The design focuses on simplicity, elegance, and strong brand recognition.
+            </p>
+        </div>
+
+        <!-- GALLERY -->
+        <div class="section">
+            <h3>Visual Output</h3>
+
+            <img src="../images/project1-1.jpg" style="width:100%; border-radius:15px; margin-bottom:20px;">
+            <img src="../images/project1-2.jpg" style="width:100%; border-radius:15px; margin-bottom:20px;">
+            <img src="../images/project1-3.jpg" style="width:100%; border-radius:15px;">
+        </div>
+
+        <!-- RESULT -->
+        <div class="section">
+            <h3>Result</h3>
+            <p>
+                The new branding improved the restaurant’s visibility and created a strong and cohesive identity across all platforms.
+            </p>
+        </div>
+
+        <!-- ✅ NAVIGATION BETWEEN PROJECTS -->
+        <div class="section" style="display:flex; justify-content:space-between;">
+            <a href="../index.html" style="color: var(--primary); text-decoration:none;">← Back</a>
+            <a href="project2.html" style="color: var(--primary); text-decoration:none;">Next Project →</a>
+        </div>
+
+    </main>
+
+</div>
+
+<footer style="text-align: center; padding: 40px; color: var(--text-dim); font-size: 0.8rem;">
+    © 2026 Mohamed AMIRI
+</footer>
+
+</body>
+</html>    <!-- RESULT -->
     <div class="section">
         <h3>Result</h3>
         <p>
